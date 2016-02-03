@@ -1,0 +1,7 @@
+#En ocaciones es necesario montar X carpeta de un sistema que no es GNU/Linux
+#la solucion que encontre es el siguiente comando
+#Como Root
+
+mount -t cifs //ip.de.la.maquina/Carpeta /directorio/donde/se/montara
+
+#Escribir el pass de la maquina que estamos montando
