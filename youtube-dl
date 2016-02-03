@@ -1,0 +1,7 @@
+#Descargar vídeos con extención mp4 utilizando youtube-dl
+
+youtube-dl -f mp4 <video URL> 
+
+#Descargar solo audio en mp3 
+
+youtube-dl --extract-audio --audio-format mp3 <video URL>
