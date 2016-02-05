@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GLOSSARY>
+  <INFO>
+    <NAME>Último Glosari</NAME>
+    <INTRO>Glosario de términos relevantes para todos los Estudiantes y el Personal</INTRO>
+    <STUDENTCANPOST>0.0</STUDENTCANPOST>
+    <ALLOWDUPLICATEDENTRIES>0.0</ALLOWDUPLICATEDENTRIES>
+    <DISPLAYFORMAT>diccionario</DISPLAYFORMAT>
+    <SHOWSPECIAL>1.0</SHOWSPECIAL>
+    <SHOWALPHABET>1.0</SHOWALPHABET>
+    <SHOWALL>1.0</SHOWALL>
+    <ALLOWCOMMENTS>0.0</ALLOWCOMMENTS>
+    <USEDYNALINK>1.0</USEDYNALINK>
+    <DEFAULTAPPROVAL>1.0</DEFAULTAPPROVAL>
+    <GLOBALGLOSSARY>1.0</GLOBALGLOSSARY>
+    <ENTBYPAGE>20.0</ENTBYPAGE>
+    <ENTRIES>
+      <ENTRY>
+        <CONCEPT>Acoso</CONCEPT>
+        <DEFINITION>El acoso es malo</DEFINITION>
+        <FORMAT>1.0</FORMAT>
+        <USEDYNALINK>0.0</USEDYNALINK>
+        <CASESENSITIVE>0.0</CASESENSITIVE>
+        <FULLMATCH>0.0</FULLMATCH>
+        <TEACHERENTRY>1.0</TEACHERENTRY>
+        <ALIASES>
+          <ALIAS>
+            <NAME>violencia</NAME>
+          </ALIAS>
+          <ALIAS>
+            <NAME> prevención</NAME>
+          </ALIAS>
+        </ALIASES>
+        <CATEGORIES>
+          <CATEGORY>
+            <NAME>Comportamiento</NAME>
+            <USEDYNALINK>1</USEDYNALINK>
+          </CATEGORY>
+        </CATEGORIES>
+      </ENTRY>
+      <ENTRY>
+        <CONCEPT>Compañerismo</CONCEPT>
+        <DEFINITION>El compañerismo es bueno</DEFINITION>
+        <FORMAT>1.0</FORMAT>
+        <USEDYNALINK>0.0</USEDYNALINK>
+        <CASESENSITIVE>0.0</CASESENSITIVE>
+        <FULLMATCH>0.0</FULLMATCH>
+        <TEACHERENTRY>1.0</TEACHERENTRY>
+        <ALIASES>
+          <ALIAS>
+            <NAME>amigo</NAME>
+          </ALIAS>
+        </ALIASES>
+        <CATEGORIES>
+          <CATEGORY>
+            <NAME>Social</NAME>
+            <USEDYNALINK>1</USEDYNALINK>
+          </CATEGORY>
+        </CATEGORIES>
+      </ENTRY>
+    </ENTRIES>
+  </INFO>
+</GLOSSARY>
