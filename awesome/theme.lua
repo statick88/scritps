@@ -1,0 +1,1 @@
+/home/statick/.config/awesome/theme.lua
