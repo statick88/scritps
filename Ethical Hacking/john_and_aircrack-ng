@@ -1,0 +1,12 @@
+Ejecutar John The Ripper en una sola sesion
+
+/pentest/password/jtr/john --stdout --incremental:all | aircrack-ng -b mac -w - /tmp/wpa2*.cap
+
+#Iniciar un ataque por fuerza bruta guardando en una sesion
+
+john --stdout --incremental:all --session:NombreSesion | aircrack-ng -b BSSID -w - fichero.cap
+
+#Restaurar la sesion guardada
+
+john --restore:NombreSesion | aircrack-ng -b BSSID -w - fichero.cap
+

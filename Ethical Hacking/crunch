@@ -1,0 +1,10 @@
+    10 : numero mínimo de caracteres en las comtraseñas
+
+    10 : numero máximo de caracteres en las contraseñas
+
+    0123456789 : los símbolos a emplear
+
+crunch 10 10 0123456789
+
+crunch 10 10 0123456789 | pyrit -r ruta/archivo.cap -b mac/archivo.cap -i- attack_passthrough
+
