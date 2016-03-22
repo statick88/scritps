@@ -1,0 +1,2 @@
+
+ffmpeg -i archivo_de_video.avi archivo_de_audio.mp3
