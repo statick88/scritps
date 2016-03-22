@@ -1,0 +1,5 @@
+
+# En ocaciones es necesario agregar llaves perdidas en ubuntu
+
+gpg --keyserver keyserver.ubuntu.com --recv-keys $1
+gpg --armor --export $1 | sudo apt-key add -
